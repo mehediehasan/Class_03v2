@@ -1,0 +1,357 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cls{
+    clear: both;
+}
+.ofhidden{
+    overflow: hidden;
+}
+
+/* Nav section css start */
+
+
+#nav_section {
+    background-color: #2c363d;
+    
+}
+.nav_area{
+    width: 80%;
+    height: 50px;
+}
+.nav_area h1{
+    color: #ff3333;
+}
+.nav_area h1 span {
+    font-weight: 500;
+}
+.nav_logo{
+width: 30%;
+float: left;
+line-height: 50px;
+}
+
+.nav_item{
+width: 70%;
+float: left;
+overflow: hidden;
+}
+
+.nav_item ul {
+float: right;
+}
+
+.nav_item ul li {
+    float: left;
+    list-style: none;
+}
+
+.nav_item ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;
+    line-height: 50px;
+}
+
+/* Nav Section Css End */
+
+/* Header Section Css Start */
+
+#header_section {
+    background-image: url(../img/187161.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header_overlay{
+    background-color: #2c363d38;
+    height: 100%;
+}
+
+.header_area {
+    width: 80%;
+    height: 400px;
+    position: relative;
+}
+
+
+.header_details {
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+
+.header_details h1 {
+    font-size: 35px;
+    margin: 4% 0%;
+}
+
+.header_details p {
+    font-weight: 300;
+}
+
+.social ul li{
+    display: inline-flex;
+    list-style: none
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    padding: 10px 10px;
+    line-height: 50px; }
+
+
+
+.header_image {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.header_image img {
+    width: 270px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Search section csss start */
+
+#search_section {
+    background-color: #FF3333;
+}
+.search_area{
+    width: 80%;
+    height: 70px;
+    line-height: 70px;
+}
+
+.search_title{
+    width: 40%;
+    float: left;
+    color: #fff;;
+}
+.search_bar{
+    width: 60%;
+    float: left;
+    overflow: hidden;
+}
+
+.search_bar form {
+    float: right;
+}
+
+.search_bar form input {
+    width: 300px;
+    height: 30px;
+}
+
+.search_bar form input::placeholder {
+    padding-left: 20px;
+}
+
+.search_bar form input[type=button], input[type=submit], input[type=reset] {
+width: 100px;
+height: 35px;
+padding: 0 10px;
+color: #fff;
+background-color: #2c363d;
+}
+
+/* Search section csss end */
+
+
+/* About Section css start  */
+
+#about_section{
+
+}
+
+.about_area{
+    width: 80%;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+
+
+.about_image {
+    width: 40%;
+    float: left;
+
+}
+
+.about_image img {
+    width: 100%;
+    border: 2px solid #FF3333;
+}
+
+.about_details {
+    width: 58%;
+    float: left;
+    overflow: hidden;
+    margin-left: 2%;
+}
+
+.about_title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.about_description {
+    text-align: justify;
+}
+
+.about_description p {
+    margin-bottom: 30px;
+}
+
+.about_description > .about_button {
+    text-decoration: none;
+    background-color: #FF3333;
+    padding: 10px 20px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 2%;
+    margin-right: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.about_description > .about_button:hover {
+    background-color: #2C363D;
+    cursor: pointer;
+}
+
+/* About section css end  */
+
+
+/* Service section css start */
+
+
+#service_section{
+    margin-top: 100px;
+    
+}
+
+.section_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section_title h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.section_title p {
+ font-size: 10px;
+ font-weight: 300;
+}
+.service_area{
+    width: 80%;
+    overflow: hidden;
+}
+
+
+.oneFourth{
+    width: 25%;
+    float: left;
+}
+
+.service_box{
+    margin: 5px;
+    padding: 10px;
+    word-spacing: 1px;
+    text-align: center;
+    border: 3px solid #ddd;
+    transition: all .3s ease-in-out;
+}
+.service_box:hover {
+    box-shadow: .5px .2px 20px .3px;
+    cursor: pointer;
+}
+.service_box > h1 > i {
+    font-size: 60px;
+}
+
+.service_box > h2 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.service_box > p {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+/* Service section css end */
+/* Footer section css start */
+#footer_section{
+margin-top: 100px;
+padding-top: 50px;
+background-color: #2c363d;
+color: #fff;
+
+}
+.footer_area {
+    width: 80%;
+    height: 300px;
+}
+.footerSec{
+    width: 25%;
+    float: left;
+    border-left: 1px solid rgba(221, 221, 221, 0.205);
+    padding-left: 20px;
+}
+.footerSec ul li {
+    list-style: none;
+    font-size: 12px;;
+}
+.footerSec ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.footerSecMap{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+}
+.footerSecMap h3, iframe{
+    float: right;
+}
+/* Footer section css end */
+
+#footer_credit {
+    background-color: #1f282e;
+}
+.footer_credit_area {
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+    
+}
+
+.footer_credit_area p {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+.footer_credit_area > p > a {
+    text-decoration: none;
+    color: #FF3333;
+    font-weight: 600;
+    font-size: 20px;
+}
